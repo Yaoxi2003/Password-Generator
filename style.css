@@ -1,0 +1,66 @@
+:root {
+    --bg: #1e2a37;
+    --green: #0fb980;
+    --gray: #273548;
+    --light: #cfd4dd;
+
+    --h1: 2rem;
+    --h2: 1.1rem;
+    --body: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--light);
+    font-family: "Inter", sans-serif;
+    font-size: var(--body);
+    font-weight: 400;
+}
+
+/* ================
+    Typography
+=================== */
+
+/* font-size */
+h1 {font-size: var(--h1); color: #fff; line-height: 1;}
+h2 {font-size: var(--h2);}
+/* font-weight */
+h1, strong {
+    font-weight: 700;
+}
+/* color */
+strong {color: var(--green);}
+.btn {font-size: inherit; font-weight: 400; color: #fff;}
+.primary-btn {color: var(--green); font-weight: 700;}
+
+
+/* button */
+
+button { cursor: pointer; }
+
+.btn {
+    border: none;
+    border-radius: 7px;
+    padding: .6em 1.5em;
+    background: var(--green);
+    min-height: 2em;
+}
+
+.primary-btn {
+    background: var(--gray);
+    color: var(--green);
+    min-width: 45%;
+}
+
+.background {
+    background: var(--bg);
+    padding: 4em;
+    min-width: 45vw;
+}
+
+
+
